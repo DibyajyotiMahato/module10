@@ -1,0 +1,176 @@
+/* build a clone of the IRCTC Ticket booking page. */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: inter;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.fr1 li {
+  padding: 5px;
+  margin: 10px;
+  margin-bottom: 0px;
+  font-size: 13px;
+  padding: 0;
+}
+.fr2 li {
+  padding: 5px;
+  border: 2px solid rgb(217, 212, 212);
+  margin: 10px;
+  border-radius: 5px;
+}
+.fr1 ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  list-style: none;
+}
+.fr2 ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  list-style: none;
+}
+.form {
+  /* display: flex; */
+  /* justify-content: center; */
+  width: 53vw;
+}
+.header {
+  /* width: 50vw; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px;
+}
+#orrange {
+  background-color: #fb792b;
+  color: white;
+  border: none;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 35px;
+  margin-top: 30px;
+}
+.t1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+.t2 {
+  font-size: 32px;
+  font-weight: 400;
+  padding-top: 3px;
+}
+.t2 ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.t2 ul li {
+  margin-right: 30px;
+}
+.t2 ul li:nth-child(1) {
+  color: #01bb0a;
+}
+.t2 ul li:nth-child(2) {
+  color: #fb792b;
+}
+.t2 ul li:nth-child(3) {
+  color: #213d77;
+}
+.ticket {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.ticket ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+.ticket ul li {
+  padding: 5px;
+  border: 1.01px solid #33333380;
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+  border-radius: 5px;
+}
+.ticket ul li:nth-child(1) {
+  background-color: #213d77;
+  color: #fff;
+}
+.search {
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 1.01px solid #3333331a;
+  border-radius: 10px;
+  width: 35vw;
+  margin-left: 117px;
+  padding: 10px;
+  margin-top: 30px;
+}
+.mid {
+  display: flex;
+  align-items: center;
+}
+.mid img {
+  width: 24px;
+  height: 22px;
+  top: 13.18px;
+  left: 12.15px;
+}
+.search ul {
+  list-style: none;
+}
+.from ul li:nth-child(1) {
+  color: #333333;
+  font-size: 12px;
+}
+.from ul li:nth-child(2) {
+  color: #333333;
+  font-size: 25px;
+  font-weight: 700;
+}
+.from ul li:nth-child(3) {
+  color: #333333;
+  font-size: 12px;
+}
+.to ul li:nth-child(1) {
+  color: #333333;
+  font-size: 12px;
+}
+.to ul li:nth-child(2) {
+  color: #333333;
+  font-size: 25px;
+  font-weight: 700;
+}
+.to ul li:nth-child(3) {
+  color: #333333;
+  font-size: 12px;
+}
+.btn button {
+  width: 35vw;
+  height: 61px;
+  border-radius: 10px;
+  background-color: #01bb0a;
+  border-style: none;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+  margin-left: 126px;
+  padding: 10px;
+  margin-top: 55px;
+  cursor: pointer;
+}
